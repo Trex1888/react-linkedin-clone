@@ -22,9 +22,13 @@ function Widgets() {
         <h2>LinkedIn News</h2>
         <Info />
       </div>
+      {newsArticle("JavaScript", "JavaScript and why you should learn it.")}
+      {newsArticle("React", "React is the best hands down!")}
+      {newsArticle("MERN", "MongoDB/Mongoose Express React Node.")}
+      {newsArticle("Tech", "See which tech trends are the most in demand.")}
       {newsArticle(
-        "Hello",
-        "How's it goingasdfasdfasdfasd asdfasdf asdfaf fadfasdddd?"
+        "GitHub",
+        "This is the place to store your code and projects."
       )}
     </div>
   );
